@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+        <!--import bootstrap CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!--import CSS, must place after bootstrap CDN-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        
+        <title>Foodie</title>
+    </head>
+    <body>
+        <!--Page Head: Logo and Search Bar-->
+        <section class="pageHead">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm" id="logoArea">
+                        <div id="logoContainer">
+                            <div class="logoSet" id="logoIcon">
+                                <img src="./img/favicon.png">
+                            </div>
+                            <div class="logoSet" id="logoImage">
+                                <img src="./img/logo.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm" id="searchArea">
+                        <div class="input-group mb-3 input-group-sm">
+                            <input type="text" class="form-control" placeholder="Search over 1,000,000 recipes...">
+                            <button class="btn btn-secondary btn-sm">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Page Content: Search Result, Recipe Detail and Shop List-->
+        <section class="pageContent">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-3" id="resultArea" >
+                    <div id="resultBox">
+
+                    </div>
+                </div>
+                <div class="col-sm-6" id="recipeArea">
+                    <div id="recipeBox">
+
+                    </div>
+                </div>
+                <div class="col-sm-3" id="shoplistArea">
+                    <div id="shoplistBox">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Page Foot: Copyright and Author-->
+        <section class="pageFoot">
+            <div class="container-fluid">
+                <div class="copyright">
+                    &copy; by Alex Ma. Powered by
+                    <a href="http://foodie.com.au" target="_blank" class="link">Foodie.com.au</a>.
+                </div>
+            </div>
+        </section>
+    <script type="text/javascript" src="js/bundle.js"></script></body>
+</html>
