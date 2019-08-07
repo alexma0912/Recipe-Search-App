@@ -1,0 +1,11 @@
+This application implements MVC architecture.
+Using:
+JavaScript
+jQuery
+Ajax
+HTML5/CSS3
+Manually configured webpack 
+Babel
+Webpack Dev Server
+Data asychronously fetched from Food2Fork API
+Responsive Design

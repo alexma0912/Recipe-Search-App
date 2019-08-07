@@ -1,0 +1,12 @@
+{
+    "presets": [   //presets is a collection of code transform plugins (把code转换为ES5)
+        ["env", {   //stand for environment - specify the preset execution environment
+            "target": {   //target具体表述哪个environment
+                "browser": [   //根据项目需求，我们这里定为浏览器环境
+                    "last 5 versions",   //babel会自动查询哪些ES6 features需要被转换，使得代码可以成功运行在浏览器之前5个版本中
+                    "ie >= 7"   //以及IE浏览器7以上版本
+                ]
+            }
+        }]
+    ]
+}
